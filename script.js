@@ -25,7 +25,7 @@ function submitForm() {
     };
 
     // Discord webhook integration
-    var discordWebhookURL = 'https://discord.com/api/webhooks/1229932797750284400/z2X-9PHxqaJ7H-mHEP55Lf234eduw34XOq7jFbDsudYPyj5csxkCRAheCOWtAstJ7BRl';
+    var discordWebhookURL = 'https://discord.com/api/webhooks/1230204645989814364/CLdFj2GMNxTU_f3Cs25Z636zhVQmEaRYKAMAxLr7Z6VlxH2nx8OyxGROOlHcO9_Ozwsy';
     var xhr = new XMLHttpRequest();
     xhr.open('POST', discordWebhookURL, true);
     xhr.setRequestHeader('Content-Type', 'application/json');
