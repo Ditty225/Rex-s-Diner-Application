@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.container {
+    background: white;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label, select, input[type="text"], textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+}
+input[type="button"] {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+input[type="button"]:hover {
+    background-color: #004494;
+}
+img.logo {
+    display: block;
+    max-width: 200px;
+    margin: 10px auto 30px;
+}
