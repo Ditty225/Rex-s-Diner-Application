@@ -16,7 +16,7 @@ function submitForm() {
             messageContent += `- ${key.charAt(0).toUpperCase() + key.slice(1)}: ${object[key]}\n`;
         }
     }
-
+    
     // Send the data to Discord
     fetch('https://discord.com/api/webhooks/1230204645989814364/CLdFj2GMNxTU_f3Cs25Z636zhVQmEaRYKAMAxLr7Z6VlxH2nx8OyxGROOlHcO9_Ozwsy', {
         method: 'POST',
