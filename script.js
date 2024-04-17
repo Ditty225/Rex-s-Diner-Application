@@ -25,7 +25,12 @@ function submitForm() {
             content: messageContent
         })
     })
-    .then(response => response.json())
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok: ' + response.status);
+        }
+        return response.json();
+    })
     .then(data => alert('Application submitted successfully!'))
     .catch((error) => alert('Failed to submit application: ' + error));
 }
