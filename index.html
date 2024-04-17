@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="path_to_logo.png" alt="Company Logo" class="logo"> <!-- Update path_to_logo.png with your actual logo path -->
+        <h1>Job Application Form</h1>
+        <form id="jobApp">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="discord">Discord Username:</label>
+            <input type="text" id="discord" name="discord" required><br><br>
+
+            <label for="position">Position Applied For:</label>
+            <select id="position" name="position" required>
+                <option value="Manager">Manager</option>
+                <option value="Cook">Cook</option>
+                <option value="Server">Server</option>
+            </select><br><br>
+
+            <label for="timezone">Timezone:</label>
+            <input type="text" id="timezone" name="timezone" required><br><br>
+
+            <label for="availability">What is your availability?</label>
+            <textarea id="availability" name="availability" required></textarea><br><br>
+
+            <label>Will you be able to work a minimum of 8 hours a week?</label>
+            <select id="hours" name="hours" required>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select><br><br>
+
+            <label>Do you have a criminal record or a felony?</label>
+            <select id="criminal_record" name="criminal_record" required>
+                <option value="No">No</option>
+                <option value="Yes">Yes</option>
+            </select><br><br>
+
+            <label>If yes, explain:</label>
+            <textarea id="record_explain" name="record_explain"></textarea><br><br>
+
+            <label for="motivation">Why do you want this job?</label>
+            <textarea id="motivation" name="motivation" required></textarea><br><br>
+
+            <input type="button" value="Submit" onclick="submitForm()">
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
