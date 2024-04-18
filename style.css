@@ -26,7 +26,7 @@ input[type="button"] {
     margin-top: 10px;
 }
 input[type="button"]:hover {
-    background-color: #004494;
+    background-color: #8F00FF;
 }
 img.logo {
     display: block;
